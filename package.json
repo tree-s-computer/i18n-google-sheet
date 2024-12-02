@@ -8,10 +8,13 @@
     "dev:test": "pnpm --filter @i18n-google-sheets/test dev",
     "build": "pnpm -r build",
     "test": "pnpm -r test",
-    "clean": "pnpm -r clean"
+    "clean": "pnpm -r clean",
+    "version": "lerna version",
+    "publish": "lerna publish"
   },
   "devDependencies": {
     "typescript": "^5.0.0",
-    "@types/node": "^20.0.0"
+    "@types/node": "^20.0.0",
+    "lerna": "^8.1.9"
   }
 }
