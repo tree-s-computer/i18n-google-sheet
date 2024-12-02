@@ -1,0 +1,14 @@
+{
+  "name": "@i18n-google-sheets/test",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "dev": "echo 'Hello from test package'"
+  },
+  "dependencies": {
+    "@i18n-google-sheets/core": "workspace:*"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}

@@ -1,0 +1,14 @@
+{
+  "name": "@i18n-google-sheets/core",
+  "version": "0.0.1",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "scripts": {
+    "dev": "echo 'Hello from core'",
+    "build": "tsc",
+    "test": "echo 'No tests yet'"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}

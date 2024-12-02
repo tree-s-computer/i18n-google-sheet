@@ -1,0 +1,17 @@
+{
+  "name": "i18n-google-sheets",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "pnpm -r --parallel dev",
+    "dev:core": "pnpm --filter @i18n-google-sheets/core dev",
+    "dev:test": "pnpm --filter @i18n-google-sheets/test dev",
+    "build": "pnpm -r build",
+    "test": "pnpm -r test",
+    "clean": "pnpm -r clean"
+  },
+  "devDependencies": {
+    "typescript": "^5.0.0",
+    "@types/node": "^20.0.0"
+  }
+}
