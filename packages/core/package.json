@@ -3,6 +3,7 @@
   "version": "0.1.0",
   "main": "./dist/index.js",
   "types": "./dist/index.d.ts",
+  "type": "commonjs",
   "scripts": {
     "dev": "tsc -w",
     "build": "tsc",
@@ -16,5 +17,12 @@
   "license": "ISC",
   "publishConfig": {
     "access": "public"
+  },
+  "dependencies": {
+    "googleapis": "^128.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.9.0",
+    "typescript": "^5.2.2"
   }
 }
