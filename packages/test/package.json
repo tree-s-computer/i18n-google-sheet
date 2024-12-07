@@ -3,12 +3,20 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "dev": "echo 'Hello from test package'"
+    "dev": "echo 'Hello from test package'",
+    "test": "tsx ./src/index.ts"
   },
   "dependencies": {
-    "i18n-google-sheets": "workspace:*"
+    "@i18n-google-sheets/core": "workspace:*",
+    "dotenv": "^16.4.7"
   },
   "keywords": [],
-  "author": "",
-  "license": "ISC"
+  "author": "Tree",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^22.10.1",
+    "ts-node": "^10.9.2",
+    "tsx": "^4.19.2",
+    "typescript": "^5.7.2"
+  }
 }
