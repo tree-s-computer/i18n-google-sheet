@@ -11,7 +11,7 @@
     "dotenv": "^16.4.7"
   },
   "keywords": [],
-  "author": "",
+  "author": "Tree",
   "license": "ISC",
   "devDependencies": {
     "@types/node": "^22.10.1",

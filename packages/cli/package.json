@@ -22,7 +22,7 @@
     "translation",
     "internationalization"
   ],
-  "author": "Your Name",
+  "author": "Tree",
   "license": "MIT",
   "dependencies": {
     "@i18n-google-sheets/core": "workspace:*",

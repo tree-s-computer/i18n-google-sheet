@@ -13,7 +13,7 @@
     "i18n",
     "google-sheets"
   ],
-  "author": "",
+  "author": "Tree",
   "license": "ISC",
   "publishConfig": {
     "access": "public"
