@@ -1,3 +1,5 @@
+#!/usr/bin/env node
+
 import { Command } from "commander";
 import { I18nManager } from "@i18n-google-sheets/core";
 import * as fs from "fs/promises";
