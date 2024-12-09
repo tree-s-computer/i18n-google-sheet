@@ -37,6 +37,7 @@ async function test() {
   try {
     console.log("Downloading translations from Google Sheet...");
     await manager.downloadFromSheet();
+    await manager.uploadToSheet();
     console.log("Download complete!");
   } catch (error: unknown) {
     if (error instanceof Error) {
