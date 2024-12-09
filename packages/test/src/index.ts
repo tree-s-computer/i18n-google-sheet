@@ -31,7 +31,7 @@ async function test() {
     },
     sourceDir: path.join(__dirname, "i18n"),
     locales: ["ko", "en"],
-    domains: ["account", "checkin"],
+    domains: [],
   });
 
   try {
